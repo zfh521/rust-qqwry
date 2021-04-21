@@ -14,3 +14,6 @@ mod tests {
     }
 }
 ```
+```shell
+IPLocation { index_offset: 8206782, record_offset: 2633253, start_ip: 2130706433, end_ip: 2130706433, country: "本机地址", area: " CZ88.NET" }
+```
