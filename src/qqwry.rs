@@ -1,7 +1,7 @@
 use std::fs::File;
 use std::io::{Read, Seek, SeekFrom};
 
-pub struct  Qqwry {
+pub struct QQWry {
     pub file:String
 }
 fn tou32(buf:&mut [u8])->u32{
@@ -139,9 +139,9 @@ impl IPLocation {
         u32_to_ip(self.end_ip)
     }
 }
-impl Qqwry {
-    pub fn from(file:  String) -> Qqwry{
-        Qqwry{
+impl QQWry {
+    pub fn from(file:  String) -> QQWry {
+        QQWry {
             file
         }
     }
