@@ -145,6 +145,9 @@ impl QQWry {
             file
         }
     }
+    /**
+    * 读取IP信息
+    */
     pub fn read_ip_location(&mut self,ip: &str) -> Option<IPLocation> {
         let ip = ip_to_u32(ip);
         let mut file = File::open(&mut self.file).unwrap();
